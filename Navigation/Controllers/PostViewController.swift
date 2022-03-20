@@ -51,8 +51,8 @@ class InfoViewController: UIViewController {
             print("Анимация ушла с кнопки 1 ")
         }))
         alert.addAction(UIAlertAction(title: "Ну ок", style: .destructive, handler: { (_) in
-                    print("Анимация ушла с кнопки 2")
-                }))
+            print("Анимация ушла с кнопки 2")
+        }))
         self.present(alert, animated: true, completion: {
             print("Анимация пошла")
         })
